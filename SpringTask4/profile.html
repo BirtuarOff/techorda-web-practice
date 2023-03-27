@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="content">
+    <div class="navbar">
+        <div class="logo">
+            <a href="#" class="logoButton">
+                <strong>TWITTER</strong>
+            </a>
+        </div>
+        <div class="navMenu">
+            <div>
+                <a href="#" class="menuButton">Tweets</a>
+            </div>
+            <div>
+                <a href="#" class="menuButton" id="profile">--</a>
+            </div>
+            <form action="login.html" method="post" id="logoutForm" class="logoutStyle">
+                <button type="submit" class="menuButton">Logout</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="main">
+        <div>
+            <div class="registerForm">
+                <div>
+                    <h1 id="welcome"></h1>
+                </div>
+                <div class="field-email">
+                    <div>
+                        <label for="email">EMAIL:</label>
+                    </div>
+                    <div class="input">
+                        <h3 id="email"></h3>
+                    </div>
+                </div>
+                <div class="field-full">
+                    <div>
+                        <label for="fullName">FULL NAME:</label>
+                    </div>
+                    <div class="input">
+                        <h3 id="fullName"></h3>
+                    </div>
+                </div>
+                <div class="field-country">
+                    <div>
+                        <label for="country">COUNTRY:</label>
+                    </div>
+                    <div class="input">
+                        <h3 id="country"></h3>
+                    </div>
+                </div>
+                <div class="field-date">
+                    <div>
+                        <label for="birthdate">BIRTHDAY:</label>
+                    </div>
+                    <div class="input">
+                        <h3 id="birthdate"></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="profile.js"></script>
+</body>
+</html>
