@@ -10,13 +10,13 @@ document.getElementById('form').onsubmit = () => {
         }
         else {
             const error = document.getElementById('error')
-            error.innerText = "Пароль немесе email қате енгізілген!"
+            error.innerText = "Пароль или email неверно!"
             return false
         }
     }
     else {
         const error = document.getElementById('error')
-        error.innerText = "Барлық жолдарды толтырыңыз"
+        error.innerText = "Заполните все поле!"
         return false
     }
 }
